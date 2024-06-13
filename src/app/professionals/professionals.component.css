@@ -1,12 +1,14 @@
 .filtro1DIV{
     height: 97px;
     padding: 0px;
+    border: 1px #CAC4D0 solid;
+    border-radius: 50px 0px 0px 50px;
 }
 
 .filtro1{
     width: 100%;
-    height: 97px;
-    border: 1px #CAC4D0 solid;
+    height: 95px;
+    border: 0px;
     border-radius: 50px 0px 0px 50px;
 }
 
@@ -19,13 +21,14 @@
 .filtro2DIV{
     height: 97px;
     padding: 0px;
+    border: 1px #CAC4D0 solid;
+    border-radius: 0px;
 }
 
 .filtro2{
     width: 100%;
-    height: 97px;
-    border: 1px #CAC4D0 solid;
-    border-radius: 0px;
+    height: 95px;
+    border: 0px;
 }
 
 .filtro2::placeholder{
@@ -37,13 +40,13 @@
 .filtro3DIV{
     height: 97px;
     padding: 0px;
+    border: 1px #CAC4D0 solid;
+    border-radius: 0px 50px 50px 0px;
 }
 
 .filtro3{
-    width: 100%;
-    height: 97px;
-    border: 1px #CAC4D0 solid;
-    border-radius: 0px 50px 50px 0px;
+    height: 95px;
+    border: 0px;
 }
 
 .filtro3::placeholder{
@@ -52,6 +55,79 @@
     font-family: Urbanist, sans-serif;
 }
 
-.masFiltros{
-    
+<<<<<<< HEAD
+.cardSize{
+    width: 263px;
+    height: 305px;
+}
+
+.card-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.search{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.search:hover{
+    background-color: #EEE1FF;
+}
+
+.search:active{
+    background-color: white;
+}
+
+.iconoSearch{
+    width: 70px;
+=======
+.container{
+    width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 120px;
+    border: 2px solid red;
+}
+
+@media (max-width: 1536px){
+    .container {
+        max-width: 1536px;
+    }
+}
+
+@media (max-width: 1280px){
+    .container {
+        max-width: 1280px;
+    }
+}
+
+@media (max-width: 1024px){
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 768px){
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 640px){
+    .container {
+        max-width: 640px;
+    }
+}
+
+@media (max-width: 475px){
+    .container {
+        max-width: 475px;
+    }
+>>>>>>> 287850ac84227861d73e58628bfeecf6c791cbf8
 }
